@@ -1,0 +1,22 @@
+Java Fractal Explorer
+=====================================
+
+Written By: Joey Hong
+
+This is a fractal generator application using Java that can draw the following fractals:
+
+* Mandelbrot
+* Tricorn
+* Burning Ship
+
+---------------------------------------
+
+The main program can be compiled by typing in the bash:
+
+javac *.java
+
+and run with:
+
+java FractalExplorer
+
+ 

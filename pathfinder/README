@@ -1,0 +1,15 @@
+Java A* Pathfinder
+=====================================
+
+Written By: Joey Hong
+
+This is a GUI pathfinder application that employs the A* algorithm to navigate obstacles. 
+---------------------------------------
+
+The main program can be compiled by typing in the bash:
+
+javac *.java
+
+and run with:
+
+java AStarApp
