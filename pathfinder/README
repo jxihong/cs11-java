@@ -3,7 +3,8 @@ Java A* Pathfinder
 
 Written By: Joey Hong
 
-This is a GUI pathfinder application that employs the A* algorithm to navigate obstacles. 
+This is a GUI pathfinder application that employs the A* algorithm to navigate obstacles. This project was modeled after one from Caltech CS 11: Java Track Spring 2014.
+
 ---------------------------------------
 
 The main program can be compiled by typing in the bash:
