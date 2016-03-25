@@ -1,0 +1,26 @@
+Java Multi-threaded Web Crawler
+===================================
+
+Written By: Joey Hong
+
+This is a rather primitive web crawler using Java, that, when given a root URL, will search the webpage for other URLs and continue searching them until a specificed maximum depth. All it does right now is print the list of unique URLs searched and their corresponding depth.
+
+The program employs multi-threading and uses regular expressions along with Java's URL library to search for href tags and URLs.
+
+It will be updated as more features are added.
+
+------------------------------------
+
+The main program can be compiled by typing in the bash:
+
+javac *.java
+
+and run with:
+
+java Crawler <URL> <depth> <patience>* -t <threads>* 
+
+where * means an optional parameter. 
+
+The <URL> denotes the root URL (protocol included), <depth> stands for the maximum search depth, <patience> is the maximum time (in seconds) that a socket will wait for a host server, and <threads> means the number of threads.
+
+The default <patience> will be set to 5 seconds, and the default number of threads will be 4.
